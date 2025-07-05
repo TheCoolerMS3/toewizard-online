@@ -1,0 +1,48 @@
+body{
+ background-image: url("media/bg.png");
+ background-size: 190px;
+ background-repeat: repeat;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+.sitebox {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.left, .right {
+    flex-shrink: 0;
+    height: 550px;
+  padding: 15px;
+
+}
+
+.left {
+  width: 350px;
+    background-color: rgba(0,0,0,0.8);
+      display: flex; flex-direction: column; gap: 10px;
+
+}
+
+.right {
+  width: 505px;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+
+  
+}
+
+a {
+  display: flex;
+}
+
+a.noflex{
+  display: inline;
+}
