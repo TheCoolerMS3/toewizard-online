@@ -51,7 +51,7 @@
       <a href="https://spacehey.com/azrielwinter"><img src="media/spacehey.png" width="110px" alt="spacehey"></a>
       </div>
       <div style="font-size: 25px;">recent lastfm activity:</div>
-      <div style="vertical-align: top; font-size: 18px; padding-bottom: 20px; width="100%" display: flex; flex-wrap: wrap; justify-content: left; gap: 10px;">
+      <div style="vertical-align: top; font-size: 18px; padding-bottom: 20px; height: 92px; over display: flex; flex-wrap: wrap; justify-content: left; gap: 10px;">
       <span id="lastfmtracks"><noscript>This portion of the website needs JavaScript enabled.</noscript></span>
       </div>
       <div style="font-size: 25px; padding-bottom: 5px;">
